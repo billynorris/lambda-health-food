@@ -8,7 +8,9 @@
     "bin/**/*"
   ],
   "scripts": {
-    "build": "node node_modules/typescript/lib/tsc.js",
+    "get-layers": "npm run copy-middy-layer",
+    "copy-middy-layer": "mkdir -p layers/lambda-middy-layer && cp -r ../lambda-middy-layer/lambda-middy-layer/nodejs ./layers/lambda-middy-layer",
+    "build": "node node_modules/typescript/lib/tsc.js && npm run get-layers",
     "prepare": "node node_modules/typescript/lib/tsc.js",
     "test-only": "mocha --require ts-node/register tests/**/**/*.ts",
     "test": "nyc npm run test-only -- --reporter mocha-junit-reporter"
@@ -44,7 +46,7 @@
     "ts-mock-imports": "^1.3.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3",
-    "middy": "../lambda-middy-layer/"
+    "middy": "./layers/lambda-middy-layer/nodejs"
   },
   "dependencies": {
     "@dazn/lambda-powertools-logger": "^1.21.0",
