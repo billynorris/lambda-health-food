@@ -6,7 +6,7 @@ import MyFitnessPalDataExporter from './lib/my-fitness-pal';
 import ListFoodEntriesResponseV1 from './models/ListFoodEntriesResponseV1';
 
 // eslint-disable-next-line import/no-extraneous-dependencies
-const middy = require('middy');
+const middy = require('../layers/lambda-middy-layer/nodejs');
 
 let exporter: MyFitnessPalDataExporter;
 
