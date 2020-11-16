@@ -1,0 +1,27 @@
+{
+  "resource": "/{proxy+}",
+  "path": "/path/to/resource",
+  "httpMethod": "GET",
+  "queryStringParameters": {},
+  "pathParameters": {
+    "proxy": "path/to/resource"
+  },
+  "stageVariables": {
+    "baz": "qux"
+  },
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+  },
+  "requestContext": {
+    "authorizer": {
+      "userId": "UserIdFromEvent"
+    },
+    "accountId": "123456789012",
+    "resourceId": "123456",
+    "stage": "prod",
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
+    "resourcePath": "/{proxy+}",
+    "httpMethod": "GET",
+    "apiId": "1234567890"
+  }
+}

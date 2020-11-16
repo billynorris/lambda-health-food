@@ -1,0 +1,359 @@
+[
+  {
+    "mealType": "Breakfast",
+    "date": "2020-11-05",
+    "foodName": "Pret latte - Latte",
+    "amount": 1,
+    "unit": 91,
+    "nutrition": {
+      "calories": 110,
+      "carbohydrates": 11,
+      "fat": 4,
+      "protein": 8,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 11,
+      "fiber": 0
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-05",
+    "foodName": "Tesco - Baby Corn and Mangetout",
+    "amount": 87.5,
+    "unit": 147,
+    "nutrition": {
+      "calories": 40,
+      "carbohydrates": 5,
+      "fat": 0,
+      "protein": 0,
+      "cholesterol": 0,
+      "sodium": 1,
+      "sugars": 4,
+      "fiber": 2
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-05",
+    "foodName": "Tesco - Mixed Bean Salad (In Water, Sugar, Vinegar & Salt Added)",
+    "amount": 130,
+    "unit": 147,
+    "nutrition": {
+      "calories": 135,
+      "carbohydrates": 22,
+      "fat": 1,
+      "protein": 7,
+      "cholesterol": 0,
+      "sodium": 520,
+      "sugars": 7,
+      "fiber": 6
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-05",
+    "foodName": "Tesco - Baby Leaf Spinach correct",
+    "amount": 100,
+    "unit": 147,
+    "nutrition": {
+      "calories": 29,
+      "carbohydrates": 2,
+      "fat": 1,
+      "protein": 3,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 0,
+      "fiber": 2
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-05",
+    "foodName": "Squeaky Bean - Tasty Thai",
+    "amount": 1,
+    "unit": 69,
+    "nutrition": {
+      "calories": 322,
+      "carbohydrates": 18,
+      "fat": 12,
+      "protein": 34,
+      "cholesterol": 0,
+      "sodium": 832,
+      "sugars": 5,
+      "fiber": 4
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-05",
+    "foodName": "Generic - Closed Cup Mushrooms",
+    "amount": 140,
+    "unit": 147,
+    "nutrition": {
+      "calories": 31,
+      "carbohydrates": 5,
+      "fat": 0,
+      "protein": 4,
+      "cholesterol": 0,
+      "sodium": 7,
+      "sugars": 3,
+      "fiber": 1
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-05",
+    "foodName": "Tesco Londra - Tomatoes on the Vine",
+    "amount": 80,
+    "unit": 147,
+    "nutrition": {
+      "calories": 16,
+      "carbohydrates": 3,
+      "fat": 0,
+      "protein": 1,
+      "cholesterol": 0,
+      "sodium": 39,
+      "sugars": 3,
+      "fiber": 1
+    }
+  },
+  {
+    "mealType": "Dinner",
+    "date": "2020-11-05",
+    "foodName": "Bottlebrush Ferments - Kimchi, the hot onr",
+    "amount": 100,
+    "unit": 147,
+    "nutrition": {
+      "calories": 24,
+      "carbohydrates": 22,
+      "fat": 1,
+      "protein": 1,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 0,
+      "fiber": 0
+    }
+  },
+  {
+    "mealType": "Dinner",
+    "date": "2020-11-05",
+    "foodName": "Tesco - Mixed Bean Salad (In Water, Sugar, Vinegar & Salt Added)",
+    "amount": 100,
+    "unit": 147,
+    "nutrition": {
+      "calories": 104,
+      "carbohydrates": 17,
+      "fat": 1,
+      "protein": 6,
+      "cholesterol": 0,
+      "sodium": 400,
+      "sugars": 6,
+      "fiber": 5
+    }
+  },
+  {
+    "mealType": "Dinner",
+    "date": "2020-11-05",
+    "foodName": "Cauli Rice - Riced Cauliflower",
+    "amount": 1,
+    "unit": 69,
+    "nutrition": {
+      "calories": 75,
+      "carbohydrates": 9,
+      "fat": 0,
+      "protein": 6,
+      "cholesterol": 0,
+      "sodium": 630,
+      "sugars": 6,
+      "fiber": 6
+    }
+  },
+  {
+    "mealType": "Dinner",
+    "date": "2020-11-05",
+    "foodName": "Tesco - Fresh & Easy - Fine Beans and Tenderstem Broccoli",
+    "amount": 100,
+    "unit": 147,
+    "nutrition": {
+      "calories": 32,
+      "carbohydrates": 3,
+      "fat": 0,
+      "protein": 3,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 2,
+      "fiber": 3
+    }
+  },
+  {
+    "mealType": "Dinner",
+    "date": "2020-11-05",
+    "foodName": "Everest - Paneer",
+    "amount": 70,
+    "unit": 147,
+    "nutrition": {
+      "calories": 243,
+      "carbohydrates": 3,
+      "fat": 19,
+      "protein": 15,
+      "cholesterol": 0,
+      "sodium": 350,
+      "sugars": 3,
+      "fiber": 1
+    }
+  },
+  {
+    "mealType": "Snacks",
+    "date": "2020-11-05",
+    "foodName": "Tesco Whole Foods - Pistachio Nuts",
+    "amount": 20,
+    "unit": 147,
+    "nutrition": {
+      "calories": 116,
+      "carbohydrates": 2,
+      "fat": 9,
+      "protein": 5,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 1,
+      "fiber": 2
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-06",
+    "foodName": "Squeaky bean - Sweet smokey bbq chicken style pieces",
+    "amount": 1,
+    "unit": 69,
+    "nutrition": {
+      "calories": 310,
+      "carbohydrates": 15,
+      "fat": 12,
+      "protein": 34,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 0,
+      "fiber": 0
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-06",
+    "foodName": "goovy food - coconut oil",
+    "amount": 15,
+    "unit": 209,
+    "nutrition": {
+      "calories": 115,
+      "carbohydrates": 0,
+      "fat": 14,
+      "protein": 0,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 0,
+      "fiber": 0
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-06",
+    "foodName": "Tesco - Mixed Bean Salad (In Water, Sugar, Vinegar & Salt Added)",
+    "amount": 150,
+    "unit": 147,
+    "nutrition": {
+      "calories": 156,
+      "carbohydrates": 25,
+      "fat": 1,
+      "protein": 8,
+      "cholesterol": 0,
+      "sodium": 600,
+      "sugars": 8,
+      "fiber": 7
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-06",
+    "foodName": "Tesco Londra - Tomatoes on the Vine",
+    "amount": 80,
+    "unit": 147,
+    "nutrition": {
+      "calories": 16,
+      "carbohydrates": 3,
+      "fat": 0,
+      "protein": 1,
+      "cholesterol": 0,
+      "sodium": 39,
+      "sugars": 3,
+      "fiber": 1
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-06",
+    "foodName": "Tesco - Organic British Mushrooms 320g Container",
+    "amount": 1,
+    "unit": 304,
+    "nutrition": {
+      "calories": 16,
+      "carbohydrates": 3,
+      "fat": 1,
+      "protein": 2,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 0,
+      "fiber": 1
+    }
+  },
+  {
+    "mealType": "Lunch",
+    "date": "2020-11-06",
+    "foodName": "Tesco - Fresh & Easy - Fine Beans and Tenderstem Broccoli",
+    "amount": 100,
+    "unit": 147,
+    "nutrition": {
+      "calories": 32,
+      "carbohydrates": 3,
+      "fat": 0,
+      "protein": 3,
+      "cholesterol": 0,
+      "sodium": 0,
+      "sugars": 2,
+      "fiber": 3
+    }
+  },
+  {
+    "mealType": "Dinner",
+    "date": "2020-11-06",
+    "foodName": "kohinoor - tarka dal correct fibre",
+    "amount": 1,
+    "unit": 69,
+    "nutrition": {
+      "calories": 300,
+      "carbohydrates": 36,
+      "fat": 14,
+      "protein": 11,
+      "cholesterol": 0,
+      "sodium": 399,
+      "sugars": 2,
+      "fiber": 11
+    }
+  },
+  {
+    "mealType": "Dinner",
+    "date": "2020-11-06",
+    "foodName": "Sweet potato",
+    "amount": 0.5,
+    "unit": 546,
+    "nutrition": {
+      "calories": 430,
+      "carbohydrates": 101,
+      "fat": 0,
+      "protein": 8,
+      "cholesterol": 0,
+      "sodium": 275,
+      "sugars": 21,
+      "fiber": 15
+    }
+  }
+]
