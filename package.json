@@ -10,7 +10,7 @@
   "scripts": {
     "get-layers": "npm run copy-middy-layer",
     "copy-middy-layer": "mkdir -p layers/lambda-middy-layer && cp -r ../lambda-middy-layer/lambda-middy-layer/nodejs ./layers/lambda-middy-layer",
-    "build": "node node_modules/typescript/lib/tsc.js && npm run get-layers",
+    "build": "node node_modules/typescript/lib/tsc.js",
     "prepare": "node node_modules/typescript/lib/tsc.js",
     "test-only": "mocha --require ts-node/register tests/**/**/*.ts",
     "test": "nyc npm run test-only -- --reporter mocha-junit-reporter"
