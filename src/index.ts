@@ -2,12 +2,10 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
 import log from '@dazn/lambda-powertools-logger';
 
-import middy from '../layers/lambda-middy-layer/nodejs';
 import MyFitnessPalDataExporter from './lib/my-fitness-pal';
 import ListFoodEntriesResponseV1 from './models/ListFoodEntriesResponseV1';
 
-// eslint-disable-next-line import/no-extraneous-dependencies
-// const middy = require('../layers/lambda-middy-layer/nodejs');
+const middy = require('../layers/lambda-middy-layer/nodejs');
 
 let exporter: MyFitnessPalDataExporter;
 
@@ -18,9 +16,8 @@ export const handlerLogic = async (
     exporter = new MyFitnessPalDataExporter();
   }
 
-  const username = event.pathParameters.myFitnessPalUsername;
-  const from = event.queryStringParameters?.from;
-  const to = event.queryStringParameters?.to;
+  const from = event.queryStringParameters?.from ?? new Date((new Date().setDate(new Date().getDate() - 7))).toISOString().split('T')[0];
+  const to = event.queryStringParameters?.to ?? new Date().toISOString().split('T')[0];
 
   log.debug('Fetching MyFitnessPal food data for user', {
     username: event.pathParameters.myFitnessPalUsername,
@@ -28,7 +25,7 @@ export const handlerLogic = async (
     toDate: to,
   });
 
-  const foodEntries = await exporter.getDataAsync(username, from, to);
+  const foodEntries = await exporter.getDataAsync('BillyNorris996', from, to);
 
   const result: ListFoodEntriesResponseV1 = {
     entries: foodEntries,

@@ -7,7 +7,7 @@ export const formatDate = (value: Date) => value.toISOString().split('T')[0];
 
 export const convertToNum = (value: string) => parseInt(value.split(',').join(''), 10);
 
-export const getUnitMapping = (value: string): number => {
+export const getUnitMapping = (value: string): string => {
   const mappingData = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../../assets/unit_mappings.json'), 'utf8')) as { [key: string]: Array<string> };
 
   const mapping = Object.keys(mappingData)
@@ -20,7 +20,7 @@ export const getUnitMapping = (value: string): number => {
     throw new Error(`missing mapping for value: '${value}'`);
   }
 
-  return parseInt(mapping, 10);
+  return mapping;
 };
 
 export const sanitize = (value: string): number => {
@@ -40,7 +40,7 @@ export const sanitize = (value: string): number => {
 
 export const calculateNameWeight = (
   value: string,
-): { name: string; amount: number; units: number; } => {
+): { name: string; amount: number; units: string; } => {
   const data = value.split(',');
 
   const rawMeasurementValue = data[data.length - 1];

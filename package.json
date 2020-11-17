@@ -1,6 +1,6 @@
 {
   "name": "lambda-mfp-food",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lambda to scrape food data from MyFitnessPal",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
@@ -8,8 +8,6 @@
     "bin/**/*"
   ],
   "scripts": {
-    "get-layers": "npm run copy-middy-layer",
-    "copy-middy-layer": "mkdir -p layers/lambda-middy-layer && cp -r ../lambda-middy-layer/lambda-middy-layer/nodejs ./layers/lambda-middy-layer",
     "build": "node node_modules/typescript/lib/tsc.js",
     "prepare": "node node_modules/typescript/lib/tsc.js",
     "test-only": "mocha --require ts-node/register tests/**/**/*.ts",

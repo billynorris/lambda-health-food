@@ -5,7 +5,7 @@ export default class FoodEntryV1 {
 
   amount: number;
 
-  unit: number;
+  unit: string;
 
   date: string;
 

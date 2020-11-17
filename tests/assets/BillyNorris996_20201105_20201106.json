@@ -4,7 +4,7 @@
     "date": "2020-11-05",
     "foodName": "Pret latte - Latte",
     "amount": 1,
-    "unit": 91,
+    "unit": "cup",
     "nutrition": {
       "calories": 110,
       "carbohydrates": 11,
@@ -21,7 +21,7 @@
     "date": "2020-11-05",
     "foodName": "Tesco - Baby Corn and Mangetout",
     "amount": 87.5,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 40,
       "carbohydrates": 5,
@@ -38,7 +38,7 @@
     "date": "2020-11-05",
     "foodName": "Tesco - Mixed Bean Salad (In Water, Sugar, Vinegar & Salt Added)",
     "amount": 130,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 135,
       "carbohydrates": 22,
@@ -55,7 +55,7 @@
     "date": "2020-11-05",
     "foodName": "Tesco - Baby Leaf Spinach correct",
     "amount": 100,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 29,
       "carbohydrates": 2,
@@ -72,7 +72,7 @@
     "date": "2020-11-05",
     "foodName": "Squeaky Bean - Tasty Thai",
     "amount": 1,
-    "unit": 69,
+    "unit": "container",
     "nutrition": {
       "calories": 322,
       "carbohydrates": 18,
@@ -89,7 +89,7 @@
     "date": "2020-11-05",
     "foodName": "Generic - Closed Cup Mushrooms",
     "amount": 140,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 31,
       "carbohydrates": 5,
@@ -106,7 +106,7 @@
     "date": "2020-11-05",
     "foodName": "Tesco Londra - Tomatoes on the Vine",
     "amount": 80,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 16,
       "carbohydrates": 3,
@@ -123,7 +123,7 @@
     "date": "2020-11-05",
     "foodName": "Bottlebrush Ferments - Kimchi, the hot onr",
     "amount": 100,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 24,
       "carbohydrates": 22,
@@ -140,7 +140,7 @@
     "date": "2020-11-05",
     "foodName": "Tesco - Mixed Bean Salad (In Water, Sugar, Vinegar & Salt Added)",
     "amount": 100,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 104,
       "carbohydrates": 17,
@@ -157,7 +157,7 @@
     "date": "2020-11-05",
     "foodName": "Cauli Rice - Riced Cauliflower",
     "amount": 1,
-    "unit": 69,
+    "unit": "container",
     "nutrition": {
       "calories": 75,
       "carbohydrates": 9,
@@ -174,7 +174,7 @@
     "date": "2020-11-05",
     "foodName": "Tesco - Fresh & Easy - Fine Beans and Tenderstem Broccoli",
     "amount": 100,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 32,
       "carbohydrates": 3,
@@ -191,7 +191,7 @@
     "date": "2020-11-05",
     "foodName": "Everest - Paneer",
     "amount": 70,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 243,
       "carbohydrates": 3,
@@ -208,7 +208,7 @@
     "date": "2020-11-05",
     "foodName": "Tesco Whole Foods - Pistachio Nuts",
     "amount": 20,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 116,
       "carbohydrates": 2,
@@ -223,9 +223,9 @@
   {
     "mealType": "Lunch",
     "date": "2020-11-06",
-    "foodName": "Squeaky bean - Sweet smokey bbq chicken style pieces",
+    "foodName": "Squeaky bean - Sweet smokey bbq chicken style pieces",
     "amount": 1,
-    "unit": 69,
+    "unit": "container",
     "nutrition": {
       "calories": 310,
       "carbohydrates": 15,
@@ -242,7 +242,7 @@
     "date": "2020-11-06",
     "foodName": "goovy food - coconut oil",
     "amount": 15,
-    "unit": 209,
+    "unit": "ml",
     "nutrition": {
       "calories": 115,
       "carbohydrates": 0,
@@ -259,7 +259,7 @@
     "date": "2020-11-06",
     "foodName": "Tesco - Mixed Bean Salad (In Water, Sugar, Vinegar & Salt Added)",
     "amount": 150,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 156,
       "carbohydrates": 25,
@@ -276,7 +276,7 @@
     "date": "2020-11-06",
     "foodName": "Tesco Londra - Tomatoes on the Vine",
     "amount": 80,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 16,
       "carbohydrates": 3,
@@ -293,7 +293,7 @@
     "date": "2020-11-06",
     "foodName": "Tesco - Organic British Mushrooms 320g Container",
     "amount": 1,
-    "unit": 304,
+    "unit": "serving",
     "nutrition": {
       "calories": 16,
       "carbohydrates": 3,
@@ -310,7 +310,7 @@
     "date": "2020-11-06",
     "foodName": "Tesco - Fresh & Easy - Fine Beans and Tenderstem Broccoli",
     "amount": 100,
-    "unit": 147,
+    "unit": "gram",
     "nutrition": {
       "calories": 32,
       "carbohydrates": 3,
@@ -327,7 +327,7 @@
     "date": "2020-11-06",
     "foodName": "kohinoor - tarka dal correct fibre",
     "amount": 1,
-    "unit": 69,
+    "unit": "container",
     "nutrition": {
       "calories": 300,
       "carbohydrates": 36,
@@ -344,7 +344,7 @@
     "date": "2020-11-06",
     "foodName": "Sweet potato",
     "amount": 0.5,
-    "unit": 546,
+    "unit": "kilogram",
     "nutrition": {
       "calories": 430,
       "carbohydrates": 101,
