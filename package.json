@@ -1,6 +1,6 @@
 {
   "name": "lambda-mfp-food",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lambda to scrape food data from MyFitnessPal",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
