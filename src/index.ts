@@ -2,7 +2,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
 import log from '@dazn/lambda-powertools-logger';
 
-import middy from 'middy';
+import middy from '../layers/lambda-middy-layer/nodejs';
 import MyFitnessPalDataExporter from './lib/my-fitness-pal';
 import ListFoodEntriesResponseV1 from './models/ListFoodEntriesResponseV1';
 
