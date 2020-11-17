@@ -5,7 +5,8 @@ import log from '@dazn/lambda-powertools-logger';
 import MyFitnessPalDataExporter from './lib/my-fitness-pal';
 import ListFoodEntriesResponseV1 from './models/ListFoodEntriesResponseV1';
 
-const middy = require('../layers/lambda-middy-layer/nodejs');
+// eslint-disable-next-line import/no-absolute-path
+const middy = require('/opt/lambda-middy-layer/nodejs');
 
 let exporter: MyFitnessPalDataExporter;
 
