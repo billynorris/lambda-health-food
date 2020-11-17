@@ -2,11 +2,12 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
 import log from '@dazn/lambda-powertools-logger';
 
+import middy from 'middy';
 import MyFitnessPalDataExporter from './lib/my-fitness-pal';
 import ListFoodEntriesResponseV1 from './models/ListFoodEntriesResponseV1';
 
 // eslint-disable-next-line import/no-extraneous-dependencies
-const middy = require('../layers/lambda-middy-layer/nodejs');
+// const middy = require('../layers/lambda-middy-layer/nodejs');
 
 let exporter: MyFitnessPalDataExporter;
 
