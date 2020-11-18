@@ -1,7 +1,7 @@
 {
   "name": "lambda-health-food",
-  "version": "1.0.0",
-  "description": "A lambda to scrape food data from MyFitnessPal",
+  "version": "1.0.1",
+  "description": "A lambda to get food data from MyFitnessPal",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "files": [
