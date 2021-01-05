@@ -293,7 +293,7 @@
   "scoop": ["scoop", "scoops"],
   "section": ["section", "sections"],
   "seed": ["seed", "seeds"],
-  "serving": ["serving", "servings"],
+  "serving": ["serving", "servings", "serving(s)"],
   "shake": ["shake", "shakes"],
   "sheet": ["sheet", "sheets"],
   "shell": ["shell", "shells"],
