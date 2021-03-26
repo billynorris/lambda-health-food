@@ -11,6 +11,17 @@ describe('helper tests', () => {
     expect(() => getUnitMapping(invalidMappingValue)).to.throw(Error, `missing mapping for value: '${invalidMappingValue}'`);
   });
 
+  it('When unit mapping is invalid, returns default value if provided', async () => {
+    // Arrange
+    const invalidMappingValue = 'INVALID_MAPPING';
+
+    // Act
+    const result = getUnitMapping(invalidMappingValue, 'foo');
+
+    // Assert
+    expect(result).eql('foo');
+  });
+
   it('When number is invalid, sanitize returns 0', async () => {
     // Arrange
     const invalidValue = 'foo';
